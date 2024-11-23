@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(96, 96, 230);
+    padding: 10px;
+}
+
+.container .left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container .left img{
+    width: 40px;
+    height: 40px;
+}
+
+.container .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container .right a {
+    background-color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+}
